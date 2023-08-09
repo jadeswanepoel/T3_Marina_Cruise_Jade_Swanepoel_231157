@@ -1,0 +1,36 @@
+/* ---------------------------------------------------------- */
+/* home page */
+.hero-image{
+    
+    
+
+}
+
+
+/* trips */
+.card{
+    border-radius: 200px;
+    background: #f3f3f3;
+    text-align: center;
+    height: 440px;
+    border: none;
+}
+
+.card-img-top{
+    height: 320px;
+    margin: auto;
+    width: auto;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.card-img-top.smal{
+    height: 200px;
+    
+}
+
+
+.card-text{
+    color: #183828;
+}
+
