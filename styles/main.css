@@ -1,36 +1,189 @@
 /* ---------------------------------------------------------- */
 /* home page */
 .hero-image{
+    height: 80vh;
+    position: relative;
+    width: 1200px;
+    margin-left: 150px;
+    margin-right: 200px;
+    border-radius: 100px;
+}
+
+/* carousel */
+.col-boxcarousel{
+    background-color: white;
+    height: 170px;
+    width: 1950px;
+    opacity: 70%;
+    color: white;
+    margin-bottom: -140px;
+    margin-left: -80px;
+}
+
+.carousel-control-prev{
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
+    margin-top: 250px;
+    margin-left: 60px;
+    background-color: #FF7235;
     
-    
-
 }
 
-
-/* trips */
-.card{
-    border-radius: 200px;
-    background: #f3f3f3;
-    text-align: center;
-    height: 440px;
-    border: none;
+.carousel-control-next{
+    width: 70px;
+    height: 70px;
+    margin-top: 250px;
+    background-color: #FF7235;
+    margin-right: 30px;
+    border-radius: 50%;
 }
 
-.card-img-top{
-    height: 320px;
-    margin: auto;
-    width: auto;
-    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+/* col-boxes for weather api and more about us section */
+
+.col-boxweather{
+    width: 500px;
+    height: 300px;
+    background-color: #FF7235;
+    margin-left: 180px;
+    margin-top: 120px;
+    border-radius: 50px;
 }
 
+.col-boxmore{
+    width: 500px;
+    height: 300px;
+    background-color: #6DB5CA;
+    margin-top: 120px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
 
-.card-img-top.smal{
+/* col-boxes for images */
+
+.col-boximage1{
+    width: 300px;
+    height: 300px;
+    background-image: url(../assets/image\ 1.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 148px;
+    margin-top: 70px;
+}
+.col-boximage2{
+    width: 300px;
+    height: 300px;
+    background-image: url(../assets/image\ 2.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.col-boximage3{
+    width: 300px;
+    height: 300px;
+    background-image: url(../assets/image\ 3.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 13px;
+    margin-top: 70px;
+}
+.col-boximage4{
+    width: 300px;
+    height: 300px;
+    background-image: url(../assets/image\ 4.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: -53px;
+    margin-top: 70px;
+}
+
+/* footer */
+
+.col-boxfooter{
+    width: 99%;
     height: 200px;
-    
+    background-color: #B8D8E0;
+    margin-top: 50px;
 }
 
-
-.card-text{
-    color: #183828;
+.col-boxf1{
+    width: 180px;
+    height: 160px;
+    color: #6DB5CA;
+    margin-top: 20px;
+    margin-left: 180px
+}
+.col-boxf2{
+    width: 180px;
+    height: 160px;
+    color: #6DB5CA;
+    margin-top: 20px;
+    margin-left: 20px
+}
+.col-boxf3{
+    width: 180px;
+    height: 160px;
+    color: #6DB5CA;
+    margin-top: 20px;
+    margin-left: -160px
+}
+.col-boxf4{
+    width: 300px:
+    height: 120px;
+    margin-top: 70px;
 }
 
+.col-boxsocial1{
+    width: 60px;
+    height: 60px;
+    background-color: #F3F3F3;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.col-boxsocial2{
+    width: 60px;
+    height: 60px;
+    background-color: #F3F3F3;
+    border-radius: 50%;
+    margin-left: 75px;
+    margin-top: -60px;
+}
+.col-boxsocial3{
+    width: 60px;
+    height: 60px;
+    background-color: #F3F3F3;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: -60px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* trips page */
+
+/* card trips */
+
+.card {
+    border-radius: 50px;
+    background: #F3F3F3;
+    text-align: center;
+    height: 480px;
+    border: none;
+    width: 400px;
+}
+
+.card-img-top {
+    width:400px;
+    height:320px;
+    margin: auto;
+    border-radius: 50px 50px 0px 0px;
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1); 
+}
+
+.card-img-top.small {
+    height:200px;
+}
+
+.card-text {
+    color: #18382B;
+}
