@@ -70,7 +70,7 @@ body {
   #pay-total-btn {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #6DB5CA;
     color: white;
     border: none;
     border-radius: 4px;
@@ -81,7 +81,7 @@ body {
     margin-top: 40px;
   }
   #pay-total-btn:hover {
-    background-color: #45a049;
+    background-color: #FF7235;
   }
   
   .order-summary{
@@ -337,8 +337,8 @@ font-family: 'Raleway', sans-serif;
 
 .table{
     margin-top: 50px;
-    background-color: #183828;
-    border-top-color: #183828;
+    background-color: #B8D8E0;
+    border-top-color: ;
 
 }
 
@@ -347,7 +347,7 @@ font-family: 'Raleway', sans-serif;
     width: 100%;
     border-collapse: collapse;
     margin-top: 50px;
-    background-color: #e6f2e9;
+    background-color: #B8D8E0;
   }
   .top-wishlist{
     padding-top: 100px;
@@ -361,7 +361,7 @@ font-family: 'Raleway', sans-serif;
     background-color: #f2f2f2;
   }
   .remove-button {
-    background-color: #183828;
+    background-color: #FF7235;
     border: none;
     color: white;
     padding: 6px 12px;

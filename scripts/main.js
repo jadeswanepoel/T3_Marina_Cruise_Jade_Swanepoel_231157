@@ -223,3 +223,10 @@ $(this).find("card-img-top").toggleClass("small");
 
      // Call the fetchWeather function when the page loads
      window.addEventListener('load', fetchWeather);
+
+     
+  $(document).ready(function() {
+    $(".remove-button").click(function() {
+      $(this).closest("tr").remove();
+    });
+  });
