@@ -1,5 +1,10 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500&family=Raleway:wght@100&display=swap');
+
+
+
+
 /* ---------------------------------------------------------- */
 /* home page */
 .hero-image{
@@ -11,15 +16,107 @@
     border-radius: 100px;
 }
 
+.col-boxlogonav{
+    width: 50px;
+    height: 50px;
+    background-image: url(../assets/DV\ 100\ -\ Class\ 4\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+
+    
+}
+
+
+/* checkout page */
+body {
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .order-summary {
+    margin-bottom: 20px;
+  }
+  
+  .coupon-section {
+    margin-bottom: 20px;
+  }
+  
+  .coupon-section input {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  .total-section {
+    text-align: center;
+  }
+  
+  .total-section h2 {
+    margin-bottom: 5px;
+  }
+  
+  .total-section p {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #apply-coupon-btn{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+  }
+  #pay-total-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .form-control{
+    margin-left: 100px;
+    margin-top: 40px;
+  }
+  #pay-total-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .order-summary{
+    text-align: center;
+    
+  }
+  
+  .coupon-section{
+    text-align: center;
+  }
+  
+  .col-boxform{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 10px #1c5c34;
+    border-radius: 10px #1c5c34 ;
+  }
+
+  
+  
+
+
 /* carousel */
 .col-boxcarousel{
     background-color: white;
     height: 170px;
     width: 1950px;
     opacity: 70%;
-    color: white;
     margin-bottom: -140px;
     margin-left: -80px;
+    font-family: 'Crimson Pro', serif;
+    color: #6DB5CA;
+
 }
 
 .carousel-control-prev{
@@ -51,14 +148,35 @@
     margin-top: 120px;
     border-radius: 50px;
 }
+.weather-widget {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 100px;
+    color: white;
+font-family: 'Raleway', sans-serif;
+
+}
 
 .col-boxmore{
     width: 500px;
     height: 300px;
     background-color: #6DB5CA;
-    margin-top: 120px;
+    margin-top: 140px;
     margin-left: 50px;
     border-radius: 50px;
+font-family: 'Raleway', sans-serif;
+
+    
+}
+.accordion{
+    margin-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+
 }
 
 /* col-boxes for images */
@@ -87,7 +205,7 @@
     background-image: url(../assets/image\ 3.png);
     background-position: center;
     background-size: cover;
-    margin-left: 13px;
+    margin-left: 10px;
     margin-top: 70px;
 }
 .col-boximage4{
@@ -96,17 +214,30 @@
     background-image: url(../assets/image\ 4.png);
     background-position: center;
     background-size: cover;
-    margin-left: -53px;
+    margin-left: -60px;
     margin-top: 70px;
 }
 
 /* footer */
+
+.col-boxlogo{
+    background-image: url(../assets/DV\ 100\ -\ Class\ 4.png);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
 
 .col-boxfooter{
     width: 99%;
     height: 200px;
     background-color: #B8D8E0;
     margin-top: 50px;
+    font-family: 'Crimson Pro', serif;
+
+
 }
 
 .col-boxf1{
@@ -114,39 +245,46 @@
     height: 160px;
     color: #6DB5CA;
     margin-top: 20px;
-    margin-left: 180px
+    margin-left: 0px;
+
 }
 .col-boxf2{
     width: 180px;
     height: 160px;
     color: #6DB5CA;
     margin-top: 20px;
-    margin-left: 20px
+    margin-left: -200px
 }
 .col-boxf3{
-    width: 180px;
+    width: 200px;
     height: 160px;
     color: #6DB5CA;
     margin-top: 20px;
-    margin-left: -160px
+    margin-left: -400px
 }
 .col-boxf4{
     width: 300px:
     height: 120px;
-    margin-top: 70px;
+    margin-left: 1100px;
+    margin-top: -60px;
+
 }
 
 .col-boxsocial1{
     width: 60px;
     height: 60px;
-    background-color: #F3F3F3;
+    background-image: url(../assets/facebook.jpg);
+    background-position: center;
+    background-size: cover;
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .col-boxsocial2{
     width: 60px;
     height: 60px;
-    background-color: #F3F3F3;
+    background-image: url(../assets/instagram.jpg);
+    background-position: center;
+    background-size: cover;
     border-radius: 50%;
     margin-left: 75px;
     margin-top: -60px;
@@ -154,7 +292,9 @@
 .col-boxsocial3{
     width: 60px;
     height: 60px;
-    background-color: #F3F3F3;
+    background-image: url(../assets/twitter.jpg);
+    background-position: center;
+    background-size: cover;
     border-radius: 50%;
     margin-left: 150px;
     margin-top: -60px;
@@ -187,5 +327,49 @@
 }
 
 .card-text {
-    color: #18382B;
+    color: #6DB5CA;
 }
+
+/* -------------------------------------------------------------------------------------- */
+/* checkout page */
+
+/* rows of trips */
+
+.table{
+    margin-top: 50px;
+    background-color: #183828;
+    border-top-color: #183828;
+
+}
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+    background-color: #e6f2e9;
+  }
+  .top-wishlist{
+    padding-top: 100px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  .remove-button {
+    background-color: #183828;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+

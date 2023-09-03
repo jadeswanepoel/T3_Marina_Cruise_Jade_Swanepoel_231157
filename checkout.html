@@ -11,42 +11,127 @@
        <link rel="stylesheet" href="styles/main.css">
      </head>
      <body>
+
+       <!-- ----------------------------------------------------------------------------------- -->
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="color: #bbd8e0;">
+      <div class="container-fluid" >
+        <div class="col-boxlogonav"></div>
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown" style="color: #bbd8e0;">
+          <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Cruise Map</a></li>
+                    <li><a class="dropdown-item" href="#">Additional Info</a></li>
+                    <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  </ul>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link "  href="trips.html">Trips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="checkout.html">Checkout</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="col-boxform">
+          <title>Sub Checkout</title>
+        
+          <h1>Checkout</h1>
+        
+          <body onload="subCheck()">
+            <div class="order-summary">
+              <h2>Order Summary</h2>
+              <ul id="checkoutOrder"></ul>
+            </div>
+          
+            <div class="coupon-section">
+              <h2>Apply Coupon</h2>
+              <input type="text" class="form-control" id="promo" placeholder="#0000">
+              <button id="apply-coupon-btn" type="button" onclick="">Apply Coupon</button>
+            </div>
+          
+            <div class="total-section">
+              <h2>Total</h2>
+              <p id="realTimeCost" class="orderCost">R.00</p>
+              <button id="pay-total-btn" type="button" onclick="resetReturn()">Pay</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="col-boxrows">
+            <table>
+              <div class="top-wishlist">
+                  <h1>TRIPS CHOSEN</h1>
+              </div>
+              
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Code</th>
+                <th>Price</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Caribbean Escape</td>
+                <td>7 nights</td>
+                <td>CRB-001</td>
+                <td>$1,299</td>
+                <td><button class="remove-button">Remove</button></td>
+              </tr>
+              <tr>
+                  <td>Mediterranean Magic</td>
+                  <td>10 nights</td>
+                  <td>MED_002</td>
+                  <td>$1,799</td>
+                  <td><button class="remove-button">Remove</button></td>
+                </tr>
+                <tr>
+                  <td>Scandinavian Serenity</td>
+                  <td>8 nights</td>
+                  <td>SCN-005</td>
+                  <td>$1,899</td>
+                  <td><button class="remove-button">Remove</button></td>
+                </tr>
+                <!-- Add more rows as needed -->
+              </tbody>
+            </table>
+             
+          </div>
+        </div>
+      </div>
+      
+      
+      
+   
+    
+     
+   
+  
   
   
   
   </head>
   <body>
-    <!-- ----------------------------------------------------------------------------------- -->
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="color: #bbd8e0;">
-        <div class="container-fluid" >
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown" style="color: #bbd8e0;">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      More
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Cruise Map</a></li>
-                      <li><a class="dropdown-item" href="#">Additional Info</a></li>
-                      <li><a class="dropdown-item" href="#">FAQ</a></li>
-                    </ul>
-                  </li>
-              <li class="nav-item">
-                <a class="nav-link"  href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link "  href="trips.html">Trips</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="checkout.html">Checkout</a>
-              </li>
-              
-            </ul>
-          </div>
-        </div>
-      </nav>
+   
